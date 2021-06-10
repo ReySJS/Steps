@@ -1,0 +1,21 @@
+{
+  "name": "desafio_fvr",
+  "version": "1.0.0",
+  "description": "Jogo Educativo para crianças até 6 anos desenvolvido por Felipe Noboru, Victor Rivelles e Reinan Santos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jogos",
+    "steps",
+    "dinossauro",
+    "criança"
+  ],
+  "author": "FVR Group",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}

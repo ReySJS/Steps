@@ -1,0 +1,64 @@
+@media(max-width: 1080px) {
+    #player-name {
+        width: 18vw;
+        right: 16.5%;
+        font-size: 16px;
+    }
+    #wall-left {
+        width: 35%;
+    }
+    #bookcase {
+        width: 60%;
+    }
+    #wall-right {
+        width: 40%;
+    }
+    #speaker {
+        width: 40px;
+        margin: 0 7px 7px 0;
+        align-self: flex-start;
+    }
+    #speaker:hover {
+        width: 40px;
+    }
+    .img-game1 {
+        max-width: 80px;
+        width: fit-content;
+    }
+    /*******************************************************************/
+    /***************************Settings Style**************************/
+    #sounds-settings {
+        width: 70%;
+        height: 70%;
+        padding: 10px 20px;
+        align-content: stretch;
+    }
+    #sounds-settings h2 {
+        font-size: 24px;
+    }
+    /***************************Settings Style**************************/
+    /*******************************************************************/
+
+
+    /*******************************************************************/
+    /***************************Ranking Style***************************/
+    #ranking-field {
+        width: 70%;
+        height: 70%;
+    }
+    #ranking-field h2 {
+        font-size: 24px;
+    }
+    #ranking-field table th,
+    #ranking-field table td {
+        font-size: 16px;
+    }
+    /***************************Ranking Style***************************/
+    /*******************************************************************/
+    #cardDeck {
+        width: 45%;
+    }
+    .card {
+        width: 20%;
+    }
+}

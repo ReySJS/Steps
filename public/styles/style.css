@@ -1,0 +1,607 @@
+/*******************************************************************/
+
+
+/*****************************Room Style****************************/
+
+#content {
+    background: url("../images/room_bg_default.svg") no-repeat;
+    background-size: cover;
+}
+
+#modal {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+#wall {
+    width: 100%;
+    height: 79%;
+    display: flex;
+}
+
+#wall-left {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#bookcase {
+    width: 55%;
+    height: 90%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#bookcase div {
+    width: 90%;
+    height: 20%;
+    background-position: center;
+}
+
+#bookcase div:hover {
+    background-position: center;
+}
+
+#bookcase-field1 {
+    display: none;
+    background: url("../images/dinotoy_bg_default.svg") no-repeat;
+    background-size: 40%;
+}
+
+#bookcase-field1:hover {
+    cursor: pointer;
+    background: url("../images/dinotoy_bg_hover.svg") no-repeat;
+    background-size: 40%;
+}
+
+#bookcase-field2 {
+    display: none;
+    background: url("../images/cubes_bg_default.svg") no-repeat;
+    background-size: 55%;
+    margin-bottom: 5%;
+}
+
+#bookcase-field2:hover {
+    cursor: pointer;
+    background: url("../images/cubes_bg_hover.svg") no-repeat;
+    background-size: 55%;
+}
+
+#bookcase-field3 {
+    display: none;
+    background: url("../images/memory_bg_default.svg") no-repeat;
+    background-size: 80%;
+    margin-bottom: 12%;
+}
+
+#bookcase-field3:hover {
+    cursor: pointer;
+    background: url("../images/memory_bg_hover.svg") no-repeat;
+    background-size: 80%;
+}
+
+#bookcase-field4 {
+    display: none;
+    background: url("../images/trophy_bg_default.svg") no-repeat;
+    background-size: 70%;
+    margin-bottom: 12%;
+}
+
+#score-ruler {
+    width: 29%;
+    height: 75%;
+    margin-bottom: 4%;
+    cursor: pointer;
+}
+
+#score-ruler:hover .ruler-body {
+    stroke: var(--hover-color);
+    stroke-width: 7px;
+    margin-bottom: 4%;
+}
+
+#wall-center {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.center-content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.score,
+#name {
+    width: 100%;
+    text-align: center;
+    font-size: 5vh;
+    color: saddlebrown;
+    text-shadow: 2px 2px hsl(25, 76%, 81%);
+}
+
+.center-content img {
+    width: 60%;
+    cursor: pointer;
+}
+
+#wall-right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+}
+
+#floor {
+    width: 100%;
+    height: 21%;
+    display: flex;
+}
+
+#floor div {
+    width: 12.5%;
+    height: 100%;
+    display: flex;
+}
+
+#floor7 {
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#speaker {
+    width: 60px;
+    margin: 0 7px 7px 0;
+}
+
+#speaker:hover {
+    width: 62px;
+    margin: 0;
+}
+
+.room-toys {
+    width: 50%;
+}
+
+
+/*****************************Room Style****************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Ranking Style***************************/
+
+#ranking-field {
+    width: 30%;
+    height: 50%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid #5d473738;
+    background: #eed49b;
+}
+
+#ranking-field h2 {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+#ranking-field table {
+    width: 100%;
+    font-size: 24px;
+}
+
+#ranking-field table td {
+    text-align: center;
+}
+
+#ranking-field table tbody tr:first-child {
+    background: var(--marker-color);
+    color: #fff;
+}
+
+
+/***************************Ranking Style***************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Welcome Style**************************/
+
+#welcome-screen {
+    width: 90%;
+    height: 90%;
+    margin-left: 0%;
+    background: url("../images/welcome_bg_1.svg") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#start-button {
+    position: fixed;
+    height: 20%;
+    top: 60%;
+    left: 40%;
+}
+
+#help-button {
+    position: fixed;
+    height: 20%;
+    top: 60%;
+    left: 65%;
+}
+
+.read-help-buttons {
+    max-height: 5%;
+    position: fixed;
+    top: 24%;
+}
+
+#read-help-button1,
+#first-read-help-button1 {
+    left: 18.5%;
+}
+
+#first-read-help-button2 {
+    left: 39.3%;
+}
+
+#read-help-button2 {
+    left: 40.5%;
+}
+
+#read-help-button3,
+#first-read-help-button3 {
+    left: 62%;
+}
+
+
+/***************************Welcome Style**************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Tutorial Style**************************/
+
+#tutorial-screen {
+    width: 90%;
+    height: 90%;
+    margin-left: 0%;
+    background: url("../images/frame_bg_default.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#first-tutorial-screen {
+    width: 90%;
+    height: 90%;
+    margin-left: 0%;
+    background: url("../images/frame2_bg_default.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#play-button {
+    position: fixed;
+    height: 10%;
+    top: 74%;
+    right: 20%;
+}
+
+#player-name {
+    width: 17vw;
+    height: 5vh;
+    position: fixed;
+    top: 66%;
+    right: 19.5%;
+    text-align: center;
+    font-size: 24px;
+    background-color: #FCFEE6;
+    color: #5A9793;
+}
+
+#player-name::placeholder {
+    color: #c7c7c7;
+}
+
+
+/***************************Tutorial Style**************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Victory Screen**************************/
+
+#victory-screen {
+    width: 90%;
+    height: 90%;
+    margin-left: 0%;
+    background: url("../images/victory_bg_default.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+/***************************Victory Screen**************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Settings Style**************************/
+
+#sounds-settings {
+    width: 30%;
+    height: 50%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 1px solid #5d473738;
+    background: #eed49b;
+}
+
+#sounds-settings h2 {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+}
+
+#sounds-settings p {
+    width: 100%;
+    height: 30%;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sounds-settings p span {
+    font-size: 24px;
+}
+
+#sounds-settings p img {
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+/***************************Settings Style**************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Game One Style**************************/
+
+#game-one-screen,
+#game-two-screen,
+#game-three-screen {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+#game-one-screen {
+    padding: 0 12% 10% 10%;
+    background: url("../images/game-one_bg_default.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.space {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-game1 {
+    max-width: 140px;
+    width: fit-content;
+}
+
+
+/***************************Game One Style**************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Game Two Style**************************/
+
+#game-two-screen {
+    padding: 0 12% 1% 10%;
+    background: url("../images/game-two_bg_default.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.score-game2 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#name-table {
+    height: 35%;
+}
+
+.img-game2 {
+    max-width: 300px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#toys-table {
+    width: 100%;
+    height: 30%;
+    /* background-color: slateblue; */
+}
+
+
+/***************************Game Two Style**************************/
+
+
+/*******************************************************************/
+
+
+/*******************************************************************/
+
+
+/***************************Game Three Style**************************/
+
+#game-three-screen {
+    background: url("../images/game-three_bg_default.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.score-game3 {
+    margin-top: 5%;
+}
+
+.img-game3 {
+    max-width: 100px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+#cardDeck {
+    width: 35%;
+    height: 55%;
+    margin-top: 3.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 22%;
+    height: 30%;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #FFFF93;
+    cursor: pointer;
+    border-radius: 15px;
+    background: #53cd92;
+    z-index: 1;
+    box-shadow: 0 1px 5px rgba(0, 10, 0, 1);
+    transition: 0.8s;
+    transform-style: preserve-3d;
+    /* position: relative; */
+}
+
+.front,
+.back {
+    width: 90%;
+    height: 90%;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+
+/**************************Game Three Style*************************/
+
+
+/*******************************************************************/
+
+
+/* #score {
+    font-size: 36px;
+} */
