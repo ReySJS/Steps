@@ -18,6 +18,7 @@ app.get('/', (req, res, next) => {
 
     res.sendFile('index.html', options, (err) => {
         if (err) {
+            console.log(err);
             next(err);
         } else {
             console.log('Sent:', fileName);
