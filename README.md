@@ -1,4 +1,3 @@
-<!--
 <h1 align="center">
   <img alt="Steps" title="Steps" src="https://user-images.githubusercontent.com/78664426/123524499-1710fc80-d6a1-11eb-8985-abd3a1adbee7.png" width="25%">
 </h1>
@@ -19,7 +18,7 @@ This project was developed with the following technologies:
 <div style="display: inline-flex"><br>
   <img align="center" title="HTML5" alt="HTML5" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" title="CSS3" alt="CSS3" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" title="jQuery" alt="jQuery" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jQuery/jQuery-plain.svg">
+  <img align="center" title="jQuery" alt="jQuery" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-plain.svg">
   <img align="center" title="Linux" alt="Linux" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg">
   <img align="center" title="NodeJS" alt="NodeJS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
   <img align="center" title="Express" alt="Express" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
@@ -27,35 +26,26 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 
-Genius Game(Simon) was developed with three months of study. It includes some great features like the possibility to play with the keyboard, the daltonic mode and two differents shapes of board. [Click here to play!](https://genius-blond.vercel.app/)
+Educational game for children up to 06 years old. The Steps Game was developed in the fourth month of the course. It includes some great features like the ability to play with drag and drop, sound effects and reward system. [Click here to play!](http://45.63.1.205/)
 
 ## 🔖 Layout
 
-The game have the desktop and mobile versions.
+![1](https://user-images.githubusercontent.com/78664426/123533555-d212b780-d6ec-11eb-869d-a7c4776e23a9.png)
+![2](https://user-images.githubusercontent.com/78664426/123533554-d212b780-d6ec-11eb-9dad-567b96742a24.png)
+![3](https://user-images.githubusercontent.com/78664426/123533553-d17a2100-d6ec-11eb-823b-084c68353de1.png)
+![4](https://user-images.githubusercontent.com/78664426/123533552-d17a2100-d6ec-11eb-8ae2-b6730c42bc9e.png)
+![5](https://user-images.githubusercontent.com/78664426/123533551-d0e18a80-d6ec-11eb-85cf-5560199c0399.png)
 
-<h4 align="center">Desktop</h4>
-<p align="center">
-  <img alt="desktop version" src=".github/desktop.png" width="100%">
-</p>
 
-<h4 align="center">Mobile</h4>
-<p align="center">
-  <img alt="mobile version" src=".github/mobile.png" width="100%">
-</p>
+
 
 ## 🎮 How to play
-
-- Press the button PLAY. Insert a Nickname if you want to enter on the ranking. Then click on one color of the example board and press on your keyboard with witch key do you want to play. Repeat this process for all the four colors. If you are daltonic, please check de box to change the colors.
-
-- Choose the layout and the level that you want to play. The first level has 11 rounds, the second level has 21 rounds, the third level has 31 rounds and the fourth level has 41 rounds.
-
-- Press start and Simon will give the first signal. Repeat the signal by pressing the same color lens. Simon will duplicate the first signal and add one. Repeat these two signals by pressing the same color lenses, in order. Continue playing as long as you can repeat each sequence of sig- nals correctly. After the 3th, 7th, 12th, 17th, 22th, 32th and 37th signals in a sequence, Simon automatically speeds up.
-
-- If you fail to repeat a sequence exactly, or if you take more than 5 seconds to repeat a signal, Simon responds with a "RAZZ" sound. This means you've lost, and the sequence of signals ends.
+ 
+<p align="center"><img alt="Layout" src="https://user-images.githubusercontent.com/78664426/123533439-0043c780-d6ec-11eb-94f0-8c63bb7b8916.png" /></p>
                                                                                                                                
 
-## 🧑‍💻 Contributors
+## 🧑 Contributors
 
-- [Juliana Burzlaff](https://github.com/JulianaBurzlaff)
+- [Felipe Seo](https://github.com/felipe-seo)
 - [Rey](https://github.com/ReySJS)                                                                                                                               
-- [Angélica Gomes](https://github.com/ConnieMarble)                                                                                   -->
+- [Victor Rivelles](#)
